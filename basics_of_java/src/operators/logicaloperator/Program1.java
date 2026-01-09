@@ -12,7 +12,6 @@ public class Program1 {
 		/*
 		 Logical And operator checks for false value
 		 and will get terminate for single false value
-		 
 		 * */
 	}
 }

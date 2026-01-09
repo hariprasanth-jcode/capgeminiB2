@@ -7,7 +7,7 @@ public class Program2 {
 		System.out.println(false ||  true || false);
 		
 		int a=6;
-		System.out.println(a<10 || ++a>10);
+		System.out.println(!(a<10) || ++a>10);
 		System.out.println(a);
 		/*
 		  Logical Or operator will check only for true
