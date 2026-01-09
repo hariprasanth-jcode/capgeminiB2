@@ -1,0 +1,105 @@
+write a program to Check Given Number is a Neon Number or Not.
+Explanation;-
+a number where the sum of digits of square of the number is equal to the number
+
+ For example, let's take the number 9:
+The square of 9 is 81 .The sum of the digits of 81 is 8 + 1 = 9, which is the original number.
+So, 9 is a neon number.
+==============================================
+Explanation:
+
+Convert the input number into its binary representation.
+
+Count the number of 1s in the binary representation: Iterate through the binary representation and count the occurrences of 1s.
+
+Check if the count is even: Determine whether the count of 1s is even or odd.
+
+Output the result: If the count of 1s is even, then the number is an Evil Number; otherwise, it is not.
+
+
+Sure, here are some examples of Evil Numbers:
+
+Example 1: Number 3
+
+Binary representation: 11
+Number of 1s: 2 (even)
+Result: Evil Number
+
+Example 2: Number 6
+
+Binary representation: 110
+Number of 1s: 2 (even)
+Result: Evil Number
+==========================================================
+write a program to Check Given Number is AutoMorphic Or Not and return a suitable message.
+
+Explanation:
+
+An automorphic  number whose square ends with the same digits as the number itself.
+
+Basic Automorphic Number: Test with a simple automorphic number.
+Example:
+Input: 5
+Expected Output: True (5 * 5 = 25, ends with 5)
+=========================================================
+Write a program to print the Fibonacci series until the user is given the number.
+Constraint: input should be greater than 0
+
+Explanation:-
+         The Fibonacci sequence is a type series where each number is the sum of the two that precede it.
+Example:
+
+                 int num = 5  ---->until the given number what are series are available to print all those.
+                 o/p:-  0 1 1 2 3
+=======================================================
+Write a program to find the Square Root Of a given number. The program checks whether the square root exists or not and returns a suitable message.
+
+Explanation:-
+The square root of a number is a number that, when multiplied by itself, gives the original number.
+
+For example:
+The square root of 4 is 2 because 2 multiplied by 2 equals 4 (2 * 2 = 4).
+The square root of 9 is 3 because 3 multiplied by 3 equals 9 (3 * 3 = 9).
+===============================================================
+Write a program that checks if a given number is a Tech Number or not, and return a suitable message.
+
+Explanation:
+A Tech Number is an even-digit number that can be divided into exactly two parts, such that the square of the sum of those two parts is equal to the original number.
+
+Example:
+For the number 2025:
+
+1. The number has 4 digits, which is even.
+2. Splitting it into two parts, we get 20 and 25.
+3. The sum of these two parts is 45, and its square is 2025, which is equal to the original number.
+Thus, 2025 is a Tech Number
+===============================================================
+Write a program to check a given number is an Armstrong Number or not, and return a suitable message.
+
+Explanation:-
+Armstrong number if the sum of its own digits raised to a power of digits results in the number itself..
+Return Result: If the sum is equal to the original number, then the number is an Armstrong number; otherwise, it is not
+
+1.        Example 1: Number 153
+•        Calculation: 1^3+5^3+3^3=1+125+27=153
+•        Result: 153 is an Armstrong number.
+
+2.        Example 2: Number 371
+•        Calculation: 3^3+7^3+1^3=27+343+1=371
+•        Result: 371 is an Armstrong number.
+==========================================================
+You are given two positive integers, m and n. Find the sum of all numbers in the range from 1 to m (both inclusive) that are not divisible by n. Then, find the sum of all numbers in the same range that are divisible by n. Finally, return the difference between the sum of numbers not divisible by n and the sum of numbers divisible by n.
+
+Assumption:
+n>0 and m>0
+Sum lies between the integral range
+
+Example
+
+Input: n:4, m:20
+Output: 90
+
+Explanation
+Sum of numbers divisible by 4 are 4 + 8 + 12 + 16 + 20 = 60
+Sum of numbers not divisible by 4 are 1 +2 + 3 + 5 + 6 + 7 + 9 + 10 + 11 + 13 + 14 + 15 + 17 + 18 + 19 = 150
+Difference: 150 – 60 = 90
