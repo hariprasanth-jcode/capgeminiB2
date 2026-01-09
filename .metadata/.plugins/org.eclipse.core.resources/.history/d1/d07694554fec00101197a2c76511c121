@@ -1,0 +1,12 @@
+package tokens;
+
+public class Class {
+
+	public static void main(String[] args) {
+		
+		System.out.print(100);
+		System.out.println(20);
+		
+		
+}
+}

@@ -1,0 +1,11 @@
+package program_variable;
+
+public class Program1 {
+
+	//Variable block of memory data 
+	// datatype identifier;
+	public static void main(String[] args) {
+		byte a;
+		a=-127;
+	}
+}

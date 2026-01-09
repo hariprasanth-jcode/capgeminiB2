@@ -1,0 +1,10 @@
+package program_variable;
+
+public class Program8 {
+	public static void main(String[] args) {
+     
+		int a=30;//4 byte
+		
+		double b=a;// 8 byte
+	}
+}

@@ -1,0 +1,17 @@
+package program_variable;
+
+public class Program9 {
+public static void main(String[] args) {
+
+	
+	double d=40.5;// 8 byte
+	
+	  //(datatype to be converted)value/expression
+	
+	
+	
+	// TypeCast operator
+	
+	
+}
+}

@@ -1,0 +1,13 @@
+package program_variable;
+
+public class Program7 {
+	public static void main(String[] args) {
+
+		char c='A';// 2 byte
+		
+		int i=c;//4 byte
+		
+		
+		
+	}
+}

@@ -1,0 +1,7 @@
+package program_variable;
+
+public class Program2 {
+	
+	 static byte by;
+
+}

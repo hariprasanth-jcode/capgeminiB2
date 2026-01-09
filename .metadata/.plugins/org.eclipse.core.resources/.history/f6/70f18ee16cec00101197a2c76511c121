@@ -1,0 +1,13 @@
+package program_variable;
+
+public class Program3 {
+	
+	//global variable
+	
+	public static void main(String[] args) {
+       //local variable
+		
+		int a;
+		System.out.println(a);
+	}
+}
